@@ -1,0 +1,10 @@
+.dropdown-wrapper {
+  display: grid;
+  gap: 8px;
+  max-width: 280px;
+  font-family: Arial, sans-serif;
+}
+
+select {
+  padding: 6px;
+}
