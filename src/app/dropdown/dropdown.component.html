@@ -1,0 +1,12 @@
+<div class="dropdown-wrapper">
+  <label for="country">Choose a country:</label>
+
+  <select id="country" [(ngModel)]="selectedCountry">
+    <option value="" disabled>Select one</option>
+    <option *ngFor="let country of countries" [value]="country">
+      {{ country }}
+    </option>
+  </select>
+
+  <p *ngIf="selectedCountry">You selected: {{ selectedCountry }}</p>
+</div>
