@@ -1,0 +1,24 @@
+:host {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.dropdown-label {
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.dropdown {
+  min-width: 14rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  padding: 0.55rem 0.7rem;
+  font-size: 0.95rem;
+  background-color: #ffffff;
+}
+
+.dropdown:focus {
+  outline: 2px solid #93c5fd;
+  outline-offset: 1px;
+}
